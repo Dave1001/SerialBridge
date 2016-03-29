@@ -21,11 +21,12 @@ About:		This class bridges serial IO between a master (upstream) and slave (down
 #include <Arduino.h>
 #include <inttypes.h>
 #include <Wire.h>
+#include <Utility.h>
 
 #ifdef DEBUG
  #include <Stream.h>
- #include <Utility.h>
 #endif
+
 
 #include "SerialBuffer.h"
 

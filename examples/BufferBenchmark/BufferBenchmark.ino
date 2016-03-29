@@ -78,7 +78,7 @@ void loop()
     const uint16_t testStringSize = 24; // actual strlen is about 165 bytes
     const uint16_t iterations = 1000;
     uint32_t sentBytes = 0;
-    uint32_t readBytes = 0;
+    uint32_t receivedBytes = 0;
     uint32_t endMillis = 0;
 
     // iterate
@@ -96,14 +96,14 @@ void loop()
         while ( myBridge.available() )
         {
             myBridge.read();
-            readBytes++;
+			receivedBytes++;
         }
     }
     endMillis = millis();
 
     // print result
     Serial << F ( " start=" ) << startMillis << F ( " end=" ) << endMillis << F ( " duration=" ) << endMillis - startMillis << endl;
-    Serial << F ( " testSize=" ) << testStringSize << F ( " sent=" ) << sentBytes << F ( " read=" ) << readBytes << F ( " lost=" ) << sentBytes - readBytes << endl;
+    Serial << F ( " testSize=" ) << testStringSize << F ( " sent=" ) << sentBytes << F ( " read=" ) << receivedBytes << F ( " lost=" ) << sentBytes - receivedBytes << endl;
     Serial << F ( " iterations=" ) << iterations << F ( " millis per iteration=" ) << ( endMillis - startMillis ) / iterations << endl << F ( "<end>" ) << endl;
 }
 
