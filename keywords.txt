@@ -1,0 +1,58 @@
+#######################################
+# Syntax Coloring Map for SerialBridge
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SerialBuffer	KEYWORD1
+SerialBridge	KEYWORD1
+SerialBridgeConfig KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+mode	KEYWORD2
+encode	KEYWORD2
+serial	KEYWORD2
+slaveAddress	KEYWORD2
+rxbuffer	KEYWORD2
+txbuffer	KEYWORD2
+upstream	KEYWORD2
+downstream	KEYWORD2
+upstreamBuffer	KEYWORD2
+downstreamBuffer	KEYWORD2
+startUpstream	KEYWORD2
+startDownstream	KEYWORD2
+update	KEYWORD2
+wireReceiveCallback	KEYWORD2
+wireRequestCallback	KEYWORD2
+available	KEYWORD2
+read	KEYWORD2
+peek	KEYWORD2
+flush	KEYWORD2
+write	KEYWORD2
+PinMode	KEYWORD2
+DigitalWrite	KEYWORD2
+DigitalRead	KEYWORD2
+AnalogRead	KEYWORD2
+AnalogWrite	KEYWORD2
+AnalogReference	KEYWORD2
+Ping	KEYWORD2
+Reset	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+SB_SERIAL	LITERAL1
+SB_WIRE	LITERAL1
+SB_COMMAND	LITERAL1
+SB_STREAM	LITERAL1
+SB_LOOPBACK	LITERAL1
+SB_16MHZ_TWBR_400KHZ	LITERAL1
+SB_16MHZ_TWBR_200KHZ	LITERAL1
+SB_16MHZ_TWBR_100KHZ	LITERAL1
+SB_16MHZ_TWBR_50KHZ	LITERAL1

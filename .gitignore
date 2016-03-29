@@ -1,0 +1,15 @@
+examples/WireToLoopback/__vm/.WireToLoopback.vsarduino.h
+examples/WireToLoopback/__vm/Configuration.Release.vmps.xml
+*.xml
+*.buildinfo
+examples/BufferBenchmark/Release/BufferBenchmark.ino.elf
+*.hex
+examples/BufferBenchmark/__vm/.BufferBenchmark.vsarduino.h
+src/__vm/.src.vsarduino.h
+*.elf
+examples/WireToCommand/__vm/.WireToCommand.vsarduino.h
+*.suo
+examples/CommandToCommand/__vm/.CommandToCommand.vsarduino.h
+examples/SerialToLoopback/__vm/.SerialToLoopback.vsarduino.h
+examples/CommandToWire/__vm/.CommandToWire.vsarduino.h
+examples/SerialToWire/__vm/.SerialToWire.vsarduino.h
